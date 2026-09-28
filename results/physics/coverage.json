@@ -1,0 +1,57 @@
+{
+ "args": {
+  "mu0": 10.0,
+  "n_pe": 2000,
+  "seed": 123,
+  "mss_bins": 200,
+  "coarse_bins": 3,
+  "runs": [
+   "event_s0",
+   "event_s1",
+   "event_s2"
+  ],
+  "chunk": 20,
+  "device": "mps",
+  "plot_only": false
+ },
+ "latent_run": "event_s1",
+ "mean_size": 710.6655,
+ "coverage": {
+  "exact": {
+   "cov_1sig": 0.6805,
+   "cov_2sig": 0.9525,
+   "mean_hat": 9.981458350904358,
+   "std_hat": 0.737962527069384
+  },
+  "latent": {
+   "cov_1sig": 0.679,
+   "cov_2sig": 0.9515,
+   "mean_hat": 9.985661561009298,
+   "std_hat": 0.744883890655769
+  },
+  "nsbi": {
+   "cov_1sig": 0.68,
+   "cov_2sig": 0.9485,
+   "mean_hat": 9.94246995341485,
+   "std_hat": 0.7386467934280487
+  },
+  "mss": {
+   "cov_1sig": 0.675,
+   "cov_2sig": 0.9485,
+   "mean_hat": 9.963302694827249,
+   "std_hat": 0.7388040450562752
+  },
+  "mss_coarse": {
+   "cov_1sig": 0.596,
+   "cov_2sig": 0.904,
+   "mean_hat": 9.443503231476807,
+   "std_hat": 0.8714476850129457
+  },
+  "m4l": {
+   "cov_1sig": 0.682,
+   "cov_2sig": 0.953,
+   "mean_hat": 9.980469414306878,
+   "std_hat": 0.786396965779672
+  }
+ }
+}

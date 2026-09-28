@@ -1,0 +1,41 @@
+{
+ "args": {
+  "n_pe": 2000,
+  "seed": 123,
+  "runs": [
+   "event_s0",
+   "event_s1",
+   "event_s2"
+  ],
+  "device": "mps",
+  "plot_only": false
+ },
+ "latent_run": "event_s0",
+ "mean_size": 49.84,
+ "coverage": {
+  "exact": {
+   "cov_1sig": 0.676,
+   "cov_2sig": 0.9535,
+   "mean_hat": 0.0014098323975759537,
+   "std_hat": 0.16480550092189322
+  },
+  "nsbi": {
+   "cov_1sig": 0.6695,
+   "cov_2sig": 0.949,
+   "mean_hat": 0.010562099346112588,
+   "std_hat": 0.16874747242352026
+  },
+  "latent": {
+   "cov_1sig": 0.673,
+   "cov_2sig": 0.9505,
+   "mean_hat": 0.002375582745485959,
+   "std_hat": 0.16930199451535108
+  },
+  "hist_t": {
+   "cov_1sig": 0.679,
+   "cov_2sig": 0.953,
+   "mean_hat": 0.0021859963957451107,
+   "std_hat": 0.16875080592234712
+  }
+ }
+}
