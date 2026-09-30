@@ -1,6 +1,6 @@
 # Hybrid NSBI techniques for robust and inexpensive inference
 
-Code implementing the Latent Categories and Mixture of Summary Statistics methods to reproduce the results and figures of 2609.xxxxx in the Gaussian covariance and the off-shell Higgs
+Code implementing the Latent Categories and Mixture of Summary Statistics methods to reproduce the results and figures of [2609.36044](https://arxiv.org/abs/2609.36044) in the Gaussian covariance and the off-shell Higgs
 (gg → ZZ → 4ℓ) case studies.
 
 ## Layout
